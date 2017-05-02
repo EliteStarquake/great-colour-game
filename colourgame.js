@@ -5,6 +5,12 @@ var pickedColour = pickColour();
 var colourDisplay = document.getElementById("colourDisplay");
 var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
+var resetButton = document.querySelector("#reset");
+
+resetButton.addEventListener("click", function(){
+  //generate all new colours
+  
+})
 
 colourDisplay.textContent = pickedColour;
 
